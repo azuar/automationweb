@@ -26,7 +26,7 @@ export const themes = [
   "wireframe",
 ];
 
-const isSubdomain = window.location.hostname.split(".").length > 2;
+const isSubdomain = window.location.hostname.split(".").length > 3;
 
 export const routes = {
   "/": isSubdomain ? Portfolio : Home,
