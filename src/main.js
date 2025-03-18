@@ -11,7 +11,7 @@ const parts = host.split(".");
 const subdomain = parts.length > 3 ? parts[0] : null; // Ambil subdomain jika ada
 
 if (subdomain && subdomain !== "www") {
-  window.location.href = `/portfolio`; // Arahkan user ke dashboard mereka
+  window.location.href = `#/portfolio`; // Arahkan user ke dashboard mereka
 }
 
 export default app
