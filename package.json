@@ -1,0 +1,25 @@
+{
+  "name": "automationweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "daisyui": "^5.0.3",
+    "svelte": "^5.20.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@lucide/svelte": "^0.479.0",
+    "@tailwindcss/vite": "^4.0.13",
+    "axios": "^1.8.3",
+    "svelte-spa-router": "^4.0.1",
+    "tailwindcss": "^4.0.13",
+    "zod": "^3.24.2"
+  }
+}
